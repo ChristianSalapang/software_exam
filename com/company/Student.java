@@ -43,7 +43,7 @@ public class Student {
 
     public void printMessage()
     {
-        System.out.println("The student ID is: " + stuID);
+        System.out.println("The student ID number is: " + stuID);
         System.out.println("The number of credits is: " + credits);
         System.out.println("The number of points is: " + points);
         System.out.println("The GPA is: " + gpa);
