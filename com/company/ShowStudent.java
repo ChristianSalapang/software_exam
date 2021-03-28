@@ -12,10 +12,10 @@ public class ShowStudent {
 
         double gpa = stu1.getPoints()/stu1.getCredits();
 
-        System.out.println("The student ID number is: " + stu1.getID());
+        System.out.println("The student ID number: " + stu1.getID());
         System.out.println("The number of credits: " + stu1.getCredits());
         System.out.println("The number of points: " + stu1.getPoints());
-        System.out.println("The GPA is: " + gpa);
+        System.out.println("GPA: " + gpa);
 
     }
 }

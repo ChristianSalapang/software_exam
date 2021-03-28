@@ -11,12 +11,12 @@ public class Student {
     {
         ID = stuID;
     }
-    public int getID()
+    private int getID()
     {
         return stuID;
     }
 
-    public void setCredits(int credit)
+    private void setCredits(int credit)
     {
         credit = credits;
     }
